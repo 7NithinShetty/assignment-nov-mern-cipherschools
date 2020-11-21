@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="login">
+    <div class="login">
+      <form action="home.html" onsubmit="validation()">
+        <div class="inputs">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input type="text" placeholder="UserName" id="username" required />
+        </div>
+        <div class="inputs">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input type="password" placeholder="Password" id="password" required />
+        </div>
+      <button class="button" type="submit">Login</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
